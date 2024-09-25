@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{0528FC19-CA2D-48CF-AC1A-CAAE437F42BD}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fall2024-Assignment2-beboskus/Program.cs">
+    <Files>
+      <File FileName="Fall2024-Assignment2-beboskus/wwwroot/script.js" Line="5" Column="21" />
+      <File FileName="Fall2024-Assignment2-beboskus/Program.cs" Line="17" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Fall2024-Assignment2-beboskus PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
