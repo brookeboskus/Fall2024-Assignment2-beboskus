@@ -53,32 +53,22 @@ $(document).ready(function () {
 //let index = Math.floor(Math.random() * backgroundImg.length);
 let index = 0;
 
-function setBackground () {
-    const img = new Image();
-    img.src = backgroundImg[index];
-
-    img.onload = function () {
-        console.log(`loaded: ${backgroundImg[index]}`);
-        document.body.style.backgroundImage = `url("${backgroundImg[index]}")`;
-    };
-
-    img.onerror = function () {
-        console.error(`Fialed to load Image: ${backgroundImg[index]}`);
-    };
-
-}
-
 function changeBackgroundImage() {
+    console.log("click was detected");
     index = (index + 1) % backgroundImg.length;
-    document.body.style.backgroundImage = `url("${backgroundImg[index]}")`;
-    //setInterval(() => {
-    //    index = (index + 1) % backgroundImg.length;
-    //    setBackground();
 
-    //}, 15000);
+    document.body.style.backgroundImage = `url("${backgroundImg[index]}")`;
+
 }
 
-setBackground();
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("content was loaded");
+    document.getElementById('searchEngineTitle').addEventListener('click', changeBackgroundImage());
+    
+    document.body.style.backgroundImage = `url("${backgroundImg[index]}")`;
+});
+
+//setBackground();
 //changeBackgroundImage();
 document.getElementById('searchEngineTitle').addEventListener('click', changeBackgroundImage());
 
